@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.eliq.dontkeepvanishingitems.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dontkeepvanishingitems.refmap.json",
+  "mixins": [
+    "DeathMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
